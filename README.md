@@ -4,6 +4,8 @@
 
 This is a fully-featured WireGuard client for Windows that uses [Wintun](https://www.wintun.net/).
 
+It contains my mods, including the ability to have more than one tunnel active at a time. I don't know why that restriction was put in, but I simply removed it. Everything works fine (for me) with 2-3 tunnels running simultaneously. Of course they must be on separate ports.
+
 ### Building
 
 Windows 10 64-bit or Windows Server 2019, and Git for Windows is required. The build script will take care of downloading, verifying, and extracting the right versions of the various dependencies:
