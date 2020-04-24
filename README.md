@@ -6,7 +6,7 @@ This is a fully-featured WireGuard client for Windows that uses [Wintun](https:/
 
 This fork contains my mods, including the ability to have more than one tunnel active at a time. I don't know why that restriction was put in, but I simply removed it. Everything works fine (for me) with 2-3 tunnels running simultaneously. Of course they must be on separate ports.
 
-I recommend building the binary in a linux or windows docker container so you can throw away everything downloaded as part of the build process. You might use the `dockercore/golang-cross` container for the build. I also build this on a remote server to avoid using much of my residential bandwidth.
+I recommend building the binary in a linux or windows docker container so you can throw away everything downloaded as part of the build process. You might use the `dockercore/golang-cross` container for the build; make sure to install imagemagick on it first.
 
 ### Building
 
