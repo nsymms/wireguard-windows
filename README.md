@@ -13,7 +13,7 @@ I recommend building the binary in a linux or windows docker container so you ca
 Windows 10 64-bit or Windows Server 2019, and Git for Windows is required. The build script will take care of downloading, verifying, and extracting the right versions of the various dependencies:
 
 ```
-C:\Projects> git clone https://git.zx2c4.com/wireguard-windows
+C:\Projects> git clone https://github.com/nsymms/wireguard-windows.git
 C:\Projects> cd wireguard-windows
 C:\Projects\wireguard-windows> build
 ```
@@ -76,7 +76,7 @@ You must first have Go ≥1.12, Mingw, and ImageMagick installed.
 
 ```
 $ sudo apt install mingw-w64 golang-go imagemagick
-$ git clone https://git.zx2c4.com/wireguard-windows
+$ git clone https://github.com/nsymms/wireguard-windows.git
 $ cd wireguard-windows
 $ make
 ```
