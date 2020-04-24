@@ -8,10 +8,8 @@ package manager
 import (
 	"bytes"
 	"encoding/gob"
-	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
 	"os"
 	"sync"
 	"sync/atomic"
